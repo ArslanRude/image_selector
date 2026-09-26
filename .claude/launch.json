@@ -1,0 +1,16 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "image-selector-dummy-keys",
+      "runtimeExecutable": ".venv/Scripts/python.exe",
+      "runtimeArgs": ["-m", "image_selector.app"],
+      "port": 7860,
+      "env": {
+        "DEEPSEEK_API_KEY": "sk-dummy-for-ui-check",
+        "TYPESAFE_API_KEY": "ts-dummy-for-ui-check",
+        "GRADIO_ANALYTICS_ENABLED": "False"
+      }
+    }
+  ]
+}

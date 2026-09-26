@@ -1,0 +1,9 @@
+gradio>=6.28,<7
+openai>=3.19,<4
+typesafe-sdk>=0.7.1,<0.8
+python-dotenv>=1.2
+pillow>=11
+
+# tests
+pytest>=9.1
+pytest-mock>=3.15
